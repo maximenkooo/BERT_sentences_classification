@@ -12,9 +12,9 @@
 Найти в большом потоке новости, в которых есть информация о событии. 
 
 Формат предоставления результатов:
-- Файл с кодом и описанием алгоритма поиска релевантных новостей. Желательно сделать код полностью воспроизводимым. В конце файла представленно ранжирование новостей. [Predicting_News.ipynb] https://github.com/maximenkooo/BERT_sentences_classification/blob/master/Predicting_News.ipynb 
+- Файл с кодом и описанием алгоритма поиска релевантных новостей. В конце файла представлено ранжирование новостей. [Predicting_News.ipynb] https://github.com/maximenkooo/BERT_sentences_classification/blob/master/Predicting_News.ipynb 
 - Файл с преобразованием данных и EDA [EDA.ipynb] https://github.com/maximenkooo/BERT_sentences_classification/blob/master/EDA.ipynb
 
-Предсказание и основная работа с данным (файл) велась в Google Colab, поэтому доступ к данным определен по адресу "/content/drive/My Drive/nlp_test/data" и output and checkpoints соответсвенно "/content/drive/My Drive/nlp_test/bert_checkpoints" . Для того чтобы файл был вопроизводим локально данные пути должны быть изменены на "data" и "bert_checkpoints" соответсвенно.
+Предсказание и основная работа с данным (файл) велась в Google Colab, поэтому доступ к данным определен по адресу "/content/drive/My Drive/nlp_test/data" и output and checkpoints соответственно "/content/drive/My Drive/nlp_test/bert_checkpoints" . Для того чтобы файл был воспроизводим локально данные пути должны быть изменены на "data" и "bert_checkpoints" соответственно.
 
 
