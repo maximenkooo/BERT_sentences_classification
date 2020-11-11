@@ -1,20 +1,20 @@
 # BERT_sentences_classification
 
-## Описание 
-Основная задача новостного мониторинга - обрабатывать входящий поток новостей, находя в них интересные пользователям события. В задании предлагается построить модель для выявления в новости события, соответствующего задержке ввода некоторого объекта в эксплуатацию
+## Description 
+The main task of news monitoring is to process the incoming news stream, finding the events interesting to users. The task involves building a model to identify the event in the news, corresponding to the delay in putting some object into operation.
 
-## Данные
-- Предложения, в которых речь идет о событии (tp.json)
-- Предложения, в которых не содержится событие (tn.json)
-- Новостной поток за несколько дней (test_data.json)
+## Data
+- sentences concerning the event (tp.json)
+- sentences that do not contain an event (tn.json)
+- news stream for several days (test_data.json)
 
-## Задача:
-Найти в большом потоке новости, в которых есть информация о событии. 
+## Task:
+Find in a large stream of news, which have information about the event. 
 
-Формат предоставления результатов:
-- Файл с кодом и описанием алгоритма поиска релевантных новостей. В конце файла представлено ранжирование новостей. [Predicting_News.ipynb] https://github.com/maximenkooo/BERT_sentences_classification/blob/master/Predicting_News.ipynb 
-- Файл с преобразованием данных и EDA [EDA.ipynb] https://github.com/maximenkooo/BERT_sentences_classification/blob/master/EDA.ipynb
+Format for presenting results:
+- File with code and description of algorithm for searching relevant news. At the end of the file you can see the ranking of news. [Predicting_News.ipynb] https://github.com/maximenkooo/BERT_sentences_classification/blob/master/Predicting_News.ipynb 
+- Data Conversion File and EDA [EDA.ipynb] https://github.com/maximenkooo/BERT_sentences_classification/blob/master/EDA.ipynb
 
-Предсказание и основная работа с данным (файл) велась в Google Colab, поэтому доступ к данным определен по адресу "/content/drive/My Drive/nlp_test/data" и output and checkpoints соответственно "/content/drive/My Drive/nlp_test/bert_checkpoints" . Для того чтобы файл был воспроизводим локально данные пути должны быть изменены на "data" и "bert_checkpoints" соответственно.
+Prediction and the main work with the data (files) was carried out in Google Colab, so access to the data is determined by the address "/content/drive/My Drive/nlp_test/data" output and checkpoints respectively "/content/drive/My Drive/nlp_test/bert_checkpoints" . In order for a file to be locally reproduced, path data must be changed to "data" and "bert_checkpoints" respectively.
 
 
